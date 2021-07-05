@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+
+<body>
+    <a href="mainList.html">main page</a>
+
+    <h1 style="text-align: center;">Register</h1>
+    <h3 style="text-align: center;">Please fill in this form to create an account.</h3>
+    <form class="form-group">
+        <div class="fname">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" class="fName" placeholder="Enter first name">
+            <div class="errors"></div>
+        </div>
+
+        <div class="lname">
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" class="lName" placeholder="Enter last name">
+            <div class="errors"></div>
+        </div>
+
+        <div class="email">
+            <label for="email">Email address:</label><br>
+            <input type="email" id="email" name="email" class="eMail" placeholder="Enter email">
+            <div class="errors"></div>
+        </div>
+
+        <div class="phone">
+            <label for="phone">Phone number:</label><br>
+            <input type="phone" id="phone" name="phone" class="phone" placeholder="Enter phone number">
+            <div class="errors"></div>
+        </div>
+
+        <div class="inputPass">
+            <label for="inputPassword">Password:</label><br>
+            <input type="password" name="inputPassword" id="inputPassword" class="inputPassword"
+                placeholder="enter password">
+            <div class="errors"></div>
+        </div>
+
+        <div class="confirmInputPass">
+            <label for="confirmInputPassword">Confirm password:</label><br>
+            <input type="password" name="confirmInputPassword" id="confirmInputPassword" class="confirmInputPassword"
+                placeholder="confirm password">
+            <div class="errors"></div>
+        </div>
+
+        <div class="checkBox">
+            <input type="checkBox" name="checkBox" id="checkBox" class="checkBox">
+            <label for="checkConditions">By creating an account you agree to our <a href="contract.html">Terms &
+                    Privacy</a>.</label>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
