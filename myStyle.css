@@ -2,7 +2,40 @@ body {
     padding-left: 11rem;
     padding-right: 11rem;
     color: rgb(22, 21, 22);
-    background-color: white;
+}
+
+body.catalog {
+    background-image: url("images/E-commerce-2018.jpg");
+    background-size: 100%;
+    padding-left: 11rem;
+    padding-right: 11rem;
+    color: rgb(22, 21, 22);
+}
+
+body.contract {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+a.mainPageRegistration {
+    text-align: left;
+}
+
+h1.h1Reg {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h3.headText {
+    text-align: center;
+}
+
+h3.h3Reg {
+    text-align: center;
 }
 
 ul {
@@ -13,10 +46,6 @@ ul {
 ol {
     list-style-type: none;
     vertical-align: middle;
-}
-
-footer {
-    text-align: center;
 }
 
 div.catalog {
@@ -34,11 +63,6 @@ div.products {
 
 div.advantages {
     text-align: left;
-}
-
-h2 {
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 div.registration {
@@ -64,4 +88,8 @@ button {
     border-radius: 20px;
     border-color: grey;
     background-color: lightskyblue;
+}
+
+footer {
+    text-align: center;
 }
