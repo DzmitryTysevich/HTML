@@ -75,6 +75,13 @@ div.errors {
     color: red;
 }
 
+div#footerDiv {
+    text-align: center;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
 form.form-group {
     text-align: center;
     font-weight: bold;
